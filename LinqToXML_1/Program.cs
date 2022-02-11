@@ -15,7 +15,11 @@ XDocument xDocument = new XDocument(
                  new XElement("Customer", new XAttribute("ID", "A-101"),
                  new XElement("First", "Samu"),
                  new XElement("Second", "Samu1"),
-                 new XElement("State", "CTC")
+                 new XElement("State", "CTC")),
+                 new XElement("Customer", new XAttribute("ID", "A-102"),
+                 new XElement("First","Ramu"),
+                 new XElement("Second","Ramu1"),
+                 new XElement("State", "BBSR")
 
                      ))
                );
